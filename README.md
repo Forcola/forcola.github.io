@@ -5,6 +5,7 @@ Static publisher, privacy, and support pages for apps published by Forcola.
 ## URLs
 
 - `https://forcola.github.io/`
+- `https://forcola.github.io/app-ads.txt`
 - `https://forcola.github.io/panes/`
 - `https://forcola.github.io/panes/privacy/`
 - `https://forcola.github.io/panes/support/`
@@ -17,4 +18,4 @@ Display headings use the self-hosted Familjen Grotesk variable font under the SI
 
 ## Publishing
 
-GitHub Pages should deploy from the `main` branch and repository root. The repository must remain public on the GitHub Free plan.
+GitHub Pages should deploy from the `main` branch and repository root. The repository must remain public on the GitHub Free plan. The root `app-ads.txt` file authorises Forcola's AdMob inventory and must remain publicly reachable at the URL above.

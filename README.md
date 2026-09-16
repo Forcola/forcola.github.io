@@ -9,6 +9,10 @@ Static publisher, privacy, and support pages for apps published by Forcola.
 - `https://forcola.github.io/panes/`
 - `https://forcola.github.io/panes/privacy/`
 - `https://forcola.github.io/panes/support/`
+- `https://forcola.github.io/submarines/`
+- `https://forcola.github.io/submarines/privacy/`
+- `https://forcola.github.io/submarines/privacy/#choices` (optional App Store privacy choices URL)
+- `https://forcola.github.io/submarines/support/`
 
 ## Local preview
 
@@ -19,3 +23,5 @@ Display headings use the self-hosted Familjen Grotesk variable font under the SI
 ## Publishing
 
 GitHub Pages should deploy from the `main` branch and repository root. The repository must remain public on the GitHub Free plan. The root `app-ads.txt` file authorises Forcola's AdMob inventory and must remain publicly reachable at the URL above.
+
+Submarines pages were prepared locally on 16 September 2026. Publish the site and verify the public URLs before submitting the app. Its policy reflects the current build: Firebase is not configured, Crashlytics collection is disabled, statistics are opt-in, local notifications are optional, and no ATT prompt is implemented. Reconcile this policy and store disclosures with the final service configuration before release.

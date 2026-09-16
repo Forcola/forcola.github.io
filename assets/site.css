@@ -140,6 +140,12 @@ summary:focus-visible {
     padding-block: clamp(4rem, 10vw, 8rem);
 }
 
+.publisher-apps {
+    display: grid;
+    gap: 1.5rem;
+    min-width: 0;
+}
+
 .publisher-copy {
     max-width: 43rem;
 }
@@ -190,7 +196,7 @@ h3 {
     box-shadow: var(--shadow);
 }
 
-.app-feature::after {
+.app-feature--panes::after {
     position: absolute;
     right: -2.6rem;
     bottom: -2.9rem;

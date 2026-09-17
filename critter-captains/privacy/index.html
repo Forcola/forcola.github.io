@@ -76,15 +76,15 @@
 
             <section id="statistics">
                 <h2>Game statistics and crash reporting</h2>
-                <p>Share game statistics is off by default. In the current version, Firebase game analytics and remote configuration are not active, and Firebase Crashlytics collection is disabled. The app does not currently send your game events or crash reports to those Firebase services. Advertising diagnostics described above are separate.</p>
-<p>If a future release enables additional collection, this policy and the relevant choices will be updated before that collection begins. Turning off game statistics does not withdraw advertising consent; those controls are separate.</p>
+                <p>Share game statistics is off by default. If you enable it, Firebase Analytics receives game events such as level starts and completions, mistakes, tutorial progress and reward use, along with associated app, device and installation information. These statistics help us understand difficulty and improve the game. You can turn them off in Settings. Firebase Crashlytics reporting remains disabled. Advertising diagnostics described above are separate.</p>
+<p>Firebase Remote Config retrieves settings such as when ads become eligible and the time between them. It uses app and installation identifiers, device settings such as language, country and time zone, and operating-system and network information to deliver those settings. This service operates independently of the optional game-statistics switch. Turning off game statistics does not withdraw advertising consent; those controls are separate. See <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a> and <a href="https://firebase.google.com/docs/ios/app-store-data-collection">Firebase data disclosures</a>.</p>
             </section>
 
             <section id="choices">
                 <h2>Your choices</h2>
                 <ul>
 <li><strong>Advertising:</strong> open Critter Captains → Settings → Ad privacy choices. This option appears when Google requires a privacy-options entry point. You can review or withdraw the choices available for your region.</li>
-<li><strong>Statistics:</strong> Share game statistics in Settings is optional and off by default. The current version does not send Firebase game statistics.</li>
+<li><strong>Statistics:</strong> Share game statistics in Settings is optional and off by default. Turn it off to stop future optional Firebase Analytics collection; this does not turn off Remote Config or change advertising choices.</li>
 <li><strong>Reward videos:</strong> choose Not now to dismiss an offer. Free supplies are used before a video is offered for that booster. Restarting does not require a rewarded video.</li>
 <li><strong>Notifications:</strong> after daily puzzles unlock, Daily puzzle reminder in Settings is off until you enable it and allow notifications. Turn it off there, or manage Critter Captains notifications in iOS Settings. Reminders are scheduled locally two hours before the daily reset at midnight UTC, for the next seven days; completing today's daily cancels its reminder.</li>
 <li><strong>Saved progress:</strong> deleting the app removes its local save unless restored through a device backup. Critter Captains has no account to delete and no Forcola cloud-save copy. Manage device backups separately in your Apple settings.</li>
@@ -100,7 +100,7 @@
 
             <section id="sharing">
                 <h2>Service providers and sharing</h2>
-                <p>Google AdMob and User Messaging Platform provide advertising, consent, measurement and security services. Apple provides distribution, operating-system services, local notifications and any device backups you choose to use. GitHub hosts these pages. Your email provider and Forcola's email service process support correspondence.</p>
+                <p>Google AdMob and User Messaging Platform provide advertising, consent, measurement and security services. Google Firebase provides remote settings and, when you opt in, game analytics. Apple provides distribution, operating-system services, local notifications and any device backups you choose to use. GitHub hosts these pages. Your email provider and Forcola's email service process support correspondence.</p>
 <p>Information may be disclosed when required by law or reasonably necessary to investigate fraud, protect security or establish and defend legal rights. Forcola does not upload your puzzle save to a user database.</p>
 <p>Providers may process information outside your country, subject to applicable safeguards described in their documentation. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a> and <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
             </section>
@@ -108,7 +108,7 @@
             <section id="retention">
                 <h2>Retention</h2>
                 <p>Local game information remains until it is replaced during play, removed with the app or restored from a backup. Support messages are retained only for as long as needed to resolve the request, keep a necessary support record, address disputes or satisfy legal obligations.</p>
-<p>Advertising and platform providers retain information under their own policies and applicable settings. Withdrawing consent stops future consent-based processing as applicable; it does not automatically erase every record already held. Contact Forcola about information held through support, and use the providers' privacy controls for their records.</p>
+<p>Advertising, analytics and platform providers retain information under their own policies and applicable settings. Withdrawing consent stops future consent-based processing as applicable; it does not automatically erase every record already held. Contact Forcola about information held through support, and use the providers' privacy controls for their records.</p>
             </section>
 
             <section id="children">

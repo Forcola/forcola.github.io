@@ -24,7 +24,7 @@
     <main id="content" class="reading-layout">
         <header class="reading-intro">
             <h1>Privacy policy for Critter Captains</h1>
-            <p class="updated">Effective 16 September 2026</p>
+            <p class="updated">Effective 23 September 2026</p>
         </header>
 
         <nav class="reading-nav" aria-label="Privacy policy sections">
@@ -69,14 +69,14 @@
                 <h2>Advertising</h2>
                 <p>Critter Captains uses Google AdMob for banners, occasional ads between attempts or levels, and optional rewarded ads. Rewards can provide a hint, a whole-submarine reveal, restored lives or a streak freeze. Choosing a rewarded ad is optional; a reward is granted only when the advertising service confirms it was earned.</p>
 <p>Where required, the app presents Google's privacy message before requesting eligible ads. Depending on your region and choices, ads may be personalised, non-personalised or limited. Declining personalised advertising does not necessarily stop all advertising or all technical data processing. You can continue playing and restart without a rewarded video when an ad is unavailable.</p>
-<p>The current version does not request Apple's App Tracking Transparency permission or have permission to access Apple's advertising identifier. This does not mean that advertising services collect no data. Google may still process other app or device identifiers and the technical information described above.</p>
+<p>After Google's consent check allows ads, Critter Captains requests Apple's App Tracking Transparency permission if you have not already made a choice. If you allow tracking, the advertising SDK may use Apple's advertising identifier for more relevant ads and advertising measurement, subject to your other consent choices. If you decline or tracking is restricted, the app does not receive permission to use that identifier; eligible non-personalised or limited ads may still be available. Playing and restarting do not require tracking permission. Advertising services can still process the technical information described above.</p>
 <p>Forcola does not sell personal information for money. Advertising processing can fall within legal definitions of sharing or targeted advertising in some regions; use the available advertising privacy controls to manage those choices.</p>
 <p>See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps using its services</a> and <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">Google Mobile Ads data disclosures</a>.</p>
             </section>
 
             <section id="statistics">
                 <h2>Game statistics and crash reporting</h2>
-                <p>Share game statistics is off by default. If you enable it, Firebase Analytics receives game events such as level starts and completions, mistakes, tutorial progress and reward use, along with associated app, device and installation information. These statistics help us understand difficulty and improve the game. You can turn them off in Settings. Firebase Crashlytics reporting remains disabled. Advertising diagnostics described above are separate.</p>
+                <p>Share game statistics is off by default. If you enable it, Firebase Analytics receives game events such as level starts and completions, mistakes, tutorial progress and reward use, along with associated app, device and installation information. These statistics help us understand difficulty and improve the game. The Analytics integration excludes advertising-identifier collection and disables Analytics advertising storage, advertising user-data use and ad personalisation; turning on statistics does not turn on those advertising uses. You can turn them off in Settings. Firebase Crashlytics reporting remains disabled. Advertising diagnostics described above are separate.</p>
 <p>Firebase Remote Config retrieves settings such as when ads become eligible and the time between them. It uses app and installation identifiers, device settings such as language, country and time zone, and operating-system and network information to deliver those settings. This service operates independently of the optional game-statistics switch. Turning off game statistics does not withdraw advertising consent; those controls are separate. See <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a> and <a href="https://firebase.google.com/docs/ios/app-store-data-collection">Firebase data disclosures</a>.</p>
             </section>
 
@@ -84,6 +84,7 @@
                 <h2>Your choices</h2>
                 <ul>
 <li><strong>Advertising:</strong> open Critter Captains → Settings → Ad privacy choices. This option appears when Google requires a privacy-options entry point. You can review or withdraw the choices available for your region.</li>
+<li><strong>Apple tracking permission:</strong> manage your choice in iOS Settings → Privacy &amp; Security → Tracking. This choice is separate from Google’s advertising privacy choices and optional game statistics.</li>
 <li><strong>Statistics:</strong> Share game statistics in Settings is optional and off by default. Turn it off to stop future optional Firebase Analytics collection; this does not turn off Remote Config or change advertising choices.</li>
 <li><strong>Reward videos:</strong> choose Not now to dismiss an offer. Free supplies are used before a video is offered for that booster. Restarting does not require a rewarded video.</li>
 <li><strong>Notifications:</strong> after daily puzzles unlock, Daily puzzle reminder in Settings is off until you enable it and allow notifications. Turn it off there, or manage Critter Captains notifications in iOS Settings. Reminders are scheduled locally two hours before the daily reset at midnight UTC, for the next seven days; completing today's daily cancels its reminder.</li>
